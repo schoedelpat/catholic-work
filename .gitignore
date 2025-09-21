@@ -1,0 +1,65 @@
+# WordPress Core
+/wp-admin/
+/wp-includes/
+/wp-content/index.php
+/wp-content/languages/
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+
+# WordPress Config
+wp-config.php
+wp-config-sample.php
+
+# Database
+*.sql
+*.sql.gz
+
+# Log files
+*.log
+error_log
+access_log
+
+# Cache
+/wp-content/cache/
+/wp-content/advanced-cache.php
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/blogs.dir/
+/wp-content/upgrade/
+
+# Uploads (comment out if you want to include uploads)
+/wp-content/uploads/
+
+# Plugins (uncomment specific plugins you want to exclude)
+# /wp-content/plugins/akismet/
+# /wp-content/plugins/hello.php
+
+# Themes (uncomment themes you want to exclude)
+# /wp-content/themes/twenty*/
+
+# Node modules
+node_modules/
+npm-debug.log
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Hostinger specific
+.htaccess.backup
