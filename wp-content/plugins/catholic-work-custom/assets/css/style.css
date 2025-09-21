@@ -1,0 +1,17 @@
+/* Sample CSS for Catholic Work Custom Plugin */
+.catholic-work-custom {
+    /* Add your custom styles here */
+}
+
+/* Example styles for the Catholic Work website */
+.cw-header {
+    background: #1e3a8a;
+    color: white;
+    padding: 1rem;
+}
+
+.cw-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}

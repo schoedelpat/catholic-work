@@ -1,0 +1,72 @@
+# WordPress Core Files (not tracked in this repo)
+/wp-admin/
+/wp-includes/
+/wp-config.php
+/wp-config-sample.php
+/wp-load.php
+/wp-blog-header.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-comments-post.php
+/wp-login.php
+
+# WordPress uploads directory
+/wp-content/uploads/
+
+# WordPress cache and temp files
+/wp-content/cache/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# Log files
+*.log
+error_log
+debug.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js dependencies (if using build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer dependencies (if using Composer)
+/vendor/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Gitium plugin files (these will be managed by the plugin)
+.gitium-lock
